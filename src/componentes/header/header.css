@@ -1,0 +1,48 @@
+.img-movil {
+    background-image: url("../header/img/image-header.jpg");
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 4.2rem;
+    top: 17%;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+}
+
+.arrow {
+    color: aliceblue;
+    width: 4rem;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    translate:-50%;
+    height: 9rem;
+}
+
+@media screen and (min-width: 768px) {
+    .img-movil {
+        display: none;
+    }
+
+    .img-pc {
+        background-image: url("../header/img/image-header-desktop.jpg");
+        height: 80vh;
+        background-size: cover;
+        background-position:center bottom;
+    }
+
+    h1 {
+        left: 50%;
+        top: 15%;
+        translate: calc(-50%);
+        font-size: 5rem;
+    }
+    .arrow{
+        height: 10rem;
+        top: 30%;
+    }
+}
