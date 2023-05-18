@@ -1,7 +1,8 @@
+
 .img-movil {
     background-image: url("../header/img/image-header.jpg");
-    height: 100vh;
     background-size: contain;
+    height: 66vh;
     background-repeat: no-repeat;
 }
 

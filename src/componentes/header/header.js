@@ -4,7 +4,7 @@ import arrow from "../header/img/icon-arrow-down.svg"
 
 const Header = () => {
   return (
-    <div>
+    <div className="content-header">
       <h1>We are creatives</h1>
       <div media="(max-width: 768px)" className="img-movil" />
       <div media="(min-width: 768px)" className="img-pc" />
