@@ -1,0 +1,19 @@
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+.imagen {
+    width: 50%;
+    
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .imagen{
+        width: 25%;
+    }
+}

@@ -1,0 +1,54 @@
+footer {
+    background-color: rgb(117, 179, 117);
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.logo-footer {
+    height: 2.4rem;
+}
+
+.menu-footer {
+    display: flex;
+    gap: 3rem;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-link {
+    color: rgb(18, 95, 18);
+    font-size: 1.3rem;
+}
+
+.redes-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+    .logo-footer {
+        height: 2.8rem;
+    }
+
+    .menu-footer {
+        gap: 4rem;
+    }
+
+    .menu-link {
+        font-size: 1.6rem;
+    }
+
+    .redes-container {
+        gap: 3rem;
+    }
+
+    .redes-icon {
+        height: 1.6rem;
+    }
+}

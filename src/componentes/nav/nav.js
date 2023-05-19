@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import logo from '../nav/img/logo.svg';
-import '../nav/Estilo.css';
+import logo from "../nav/img/logo.svg";
+import "../nav/Estilo.css";
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,17 +31,17 @@ function NavBar() {
         <ul className="menu">
           <li className="menu-item">
             <a className="menu-link" href="_blank">
-              Home
-            </a>
-          </li>
-          <li className="menu-item">
-            <a className="menu-link" href="_blank">
               About
             </a>
           </li>
           <li className="menu-item">
             <a className="menu-link" href="_blank">
               Services
+            </a>
+          </li>
+          <li className="menu-item">
+            <a className="menu-link" href="_blank">
+              Projects
             </a>
           </li>
           <li className="menu-item">
@@ -56,4 +56,3 @@ function NavBar() {
 }
 
 export default NavBar;
-
