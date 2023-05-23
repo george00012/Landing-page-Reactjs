@@ -1,6 +1,6 @@
 import React from "react";
 import "../footer/footer.css";
-import logo from "../nav/img/logo.svg";
+import logo from "../footer/img/logo.svg"
 import Facebook from "../footer/img/icon-facebook.svg";
 import Instagram from "../footer/img/icon-instagram.svg";
 import Twitter from "../footer/img/icon-twitter.svg";
@@ -15,19 +15,19 @@ const Footer = () => {
         </a>
       </div>
 
-      <ul className="menu-footer">
-        <li className="menu-item">
-          <a className="menu-link" href="_blank">
+      <ul className="footer">
+        <li className="item">
+          <a className="link" href="_blank">
             About
           </a>
         </li>
         <li className="menu-item">
-          <a className="menu-link" href="_blank">
+          <a className="link" href="_blank">
             Services
           </a>
         </li>
         <li className="menu-item">
-          <a className="menu-link" href="_blank">
+          <a className="link" href="_blank">
             Projects
           </a>
         </li>

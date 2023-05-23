@@ -6,27 +6,28 @@
 .container {
   display: flex;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .navbar-brand {
   margin-right: auto;
+  display: flex;
+  align-items: bottom;
 }
 
 .logo {
-  width: 10rem;
+  width: 11rem;
 }
 
 .menu {
   list-style: none;
   display: none;
 }
-
-.menu-link {
+.menu-link{
   text-decoration: none;
-  color: #f1f1f1;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
+  color: #fff;
 }
-
 .menu-toggle {
   display: block;
   margin-right: 1rem;
@@ -59,12 +60,8 @@
 
   .menu {
     display: flex;
-    gap: 3rem;
-    padding: 0.5rem;
-  }
-
-  .menu-item {
-    margin-bottom: 0;
+    gap: 2rem;
+    padding: 0.5rem 1rem;
   }
 
   .contact {
@@ -73,6 +70,14 @@
     color: rgb(20, 20, 20);
     border-radius: 5rem;
     font-weight: bold;
+  }
+
+  .logo{
+    margin-left: 1rem;
+    width: 10rem;
+  }
+  .menu-link{
+    font-size: 1.2rem;
   }
 }
 
@@ -88,9 +93,12 @@
     padding: 1.6rem;
     position: absolute;
     top: 12%;
-    width: 100%;
+    width: 88%;
     left: 0%;
+    text-align: center;
     z-index: 1;
     background-color: #1b9bdb;
   }
+
 }
+
